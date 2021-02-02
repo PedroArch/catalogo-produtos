@@ -4,6 +4,7 @@ import Produto from './pages/Produto';
 import Contatos from './pages/Contatos';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import GitHubCorner from './components/GitHubCorner'
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
+    <GitHubCorner />
     </div>
   );
 }
