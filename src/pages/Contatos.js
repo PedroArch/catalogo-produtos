@@ -4,7 +4,7 @@ import foto from '../img/contato.jpg';
 
 function Contatos() {
   return (
-    <section className={styles.contatos}>
+    <section className={styles.contatos  + ' animeLeft'}>
       <img src={foto} alt="Máquina de Escrever" />
       <div>
         <h1>Entre em contato</h1>

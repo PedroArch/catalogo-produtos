@@ -8,15 +8,17 @@ import './App.css';
 
 function App() {
   return (
+    <div className="App">
     <BrowserRouter>
       <Header />
       <Routes>
         <Route exact path="/" element={<Produtos />} />
         <Route exact path="/contatos" element={<Contatos />} />
-        <Route exact path="/produto/:id" element={<Produto />} />
+        <Route exact path="/produtos/:id" element={<Produto />} />
       </Routes>
       <Footer />
     </BrowserRouter>
+    </div>
   );
 }
 

@@ -17,7 +17,7 @@
 .dados li::before {
   content: '';
   display: inline-block;
-  width: 20px;
+  width: 11px;
   height: 3px;
   background-color: #ddd;
   margin-right: 10px;
